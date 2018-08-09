@@ -34,4 +34,8 @@ lgp.set_group_push("Your Key")
 lgp.group_push("Hello World","This is a msg from lightpush.")
 ```
 
+---
+
+[Blog for lightpush](https://www.huanganheng.com/lightpush.html)
+
 
