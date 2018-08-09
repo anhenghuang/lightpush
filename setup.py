@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='lightpush',
-      version='0.1',
+      version='0.2',
       description='Simple package for ServerChan',
       # url='http://github.com/storborg/funniest',
       author='anhenghuang',

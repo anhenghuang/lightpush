@@ -15,16 +15,18 @@ This is a simple package for [**ServerChan**](http://sc.ftqq.com/) and [**PushBe
 You can install lightpush by
 
 ```shell
-pip install lightpush
+pip install lightpush --user
 ```
 
 And it is very convenient to use lightpush (like ServerChan)
 
 ```python
-import lightpush as lgp
+from lightpush import lightpush
+
+lgp = lightpush()
 
 # For ServerChan
-lgp.set_sigle_push("Your Key")
+lgp.set_single_push("Your Key")
 lgp.single_push("Hello World","This is a msg from lightpush.")
 
 # For PushBear
